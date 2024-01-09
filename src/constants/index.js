@@ -178,31 +178,31 @@ import {
   
   const projects = [
     {
-      name: "To-Do List",
+      name: "AI Article Summarizer",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "Web-based platform that Transforms lengthy articles into concise insights effortlessly, saving time and delivering the essence of content in seconds.",
       tags: [
         {
-          name: "react",
+          name: "React",
           color: "blue-text-gradient",
         },
         {
-          name: "mongodb",
+          name: "Redux",
           color: "green-text-gradient",
         },
         {
-          name: "tailwind",
+          name: "Tailwind CSS",
           color: "pink-text-gradient",
         },
       ],
       image: carrent,
-      source_code_link: "https://github.com/Akshay-Jayaram/to-do-list_React",
-      link: "https://akshay-jayaram.github.io/to-do-list_React/"
+      source_code_link: "https://github.com/Akshay-Jayaram/ai-article-summarizer",
+      link: "https://akshay-jayaram.github.io/ai-article-summarizer/"
     },
     {
       name: "Spitico Foods",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "A responsive website developed using HTML and CSS. It serves as a basic template that can used as a starting point for web development projects.",
       tags: [
         {
           name: "HTML",
@@ -224,7 +224,7 @@ import {
     {
       name: "Portfolio Site",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        "A dynamic portfolio designed to exhibit my work, education, and skills in an engaging and interactive manner, reflecting my expertise and passion for web development and design.",
       tags: [
         {
           name: "React",
@@ -240,8 +240,8 @@ import {
         },
       ],
       image: tripguide,
-      source_code_link: "https://github.com/",
-      link: ""
+      source_code_link: "https://github.com/Akshay-Jayaram/myWebsite_One",
+      link: "https://akshay-jayaram.github.io/myWebsite_One/"
     },
   ];
   

@@ -1,10 +1,8 @@
-Certainly! Here's a README file for your portfolio project:
-
----
 
 # My Portfolio
 
-Welcome to my portfolio! This project showcases my skills, projects, and experience in a visually engaging manner.
+Welcome to my portfolio! This project showcases my skills, projects, and experience in a visually engaging manner.<br>
+<br>
 ![Hero Section](src/assets/screenshot_hero_section.png)
 
 ## Overview

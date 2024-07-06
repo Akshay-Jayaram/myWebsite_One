@@ -3,8 +3,8 @@ import { motion } from "framer-motion";
 import { styles } from "../styles";
 import video from "../assets/hero7.mp4"
 import { SectionWrapper } from "../hoc";
-
-
+import ln from "../assets/ln.png";
+import { github } from "../assets";
 
 const Hero = () => {
   return (
@@ -24,11 +24,33 @@ const Hero = () => {
               Welcome to my digital <br className='sm:block hidden' />
               playground!
             </p>
+            <div className="flex space-x-4 mt-8">
+              <div
+                onClick={() => window.open("https://www.linkedin.com/in/akshay-jayaram/", "_blank")}
+                className='bg-[#7976D5] hover:bg-violet-400 w-12 h-12 md:w-16 md:h-16 rounded-full flex justify-center items-center cursor-pointer'
+              >
+                <img
+                  src={ln}
+                  alt='source code'
+                  className='w-1/3 h-1/3 md:w-1/2 md:h-1/2 object-contain'
+                />
+              </div>
+              <div
+                onClick={() => window.open("https://github.com/Akshay-Jayaram", "_blank")}
+                className='bg-[#7976D5] hover:bg-violet-400 w-12 h-12 md:w-16 md:h-16 rounded-full flex justify-center items-center cursor-pointer'
+              >
+                <img
+                  src={github}
+                  alt='source code'
+                  className='w-1/3 h-1/3 md:w-1/2 md:h-1/2 object-contain'
+                />
+              </div>
+            </div>
           </div>
         </div>
 
         <div className={`flex flex-1 md:h-auto ${styles.paddingX}`}>
-          <video src={video} autoPlay loop muted />
+          <video src={video} autoPlay loop muted className="transition" />
         </div>
 
       </div>
@@ -51,7 +73,7 @@ const Hero = () => {
           </div>
         </a>
       </div>
-    </section>
+    </section >
   )
 }
 

@@ -3,7 +3,6 @@ import { motion } from "framer-motion";
 import emailjs from "@emailjs/browser";
 
 import { styles } from "../styles";
-import { EarthCanvas } from "./canvas";
 import { github } from "../assets";
 import ln from "../assets/ln.png";
 import { SectionWrapper } from "../hoc";
@@ -41,7 +40,7 @@ const Contact = () => {
           from_name: form.name,
           to_name: "Akshay Jayaram",
           from_email: form.email,
-          to_email: "ajaya026@ucr.edu",
+          to_email: "akshayj1814@gmail.com",
           message: form.message,
         },
         'M2T6AgSkHAz1KMSf7'
@@ -61,7 +60,7 @@ const Contact = () => {
           setLoading(false);
           console.error(error);
 
-          alert("Ahh, something went wrong. Please try again.");
+          alert("Something went wrong. Please try again.");
         }
       );
   };
@@ -79,31 +78,31 @@ const Contact = () => {
 
         <div className='w-full flex'>
           <br className='sm:block hidden' />
-          Actively seeking Summer 2024 internship opportunities and am available for full-time positions from December 2024 onwards.
+          Actively seeking full-time positions starting December 2024.
         </div>
 
         <div className='absolute inset-0 flex justify-end m-3 card-img_hover space-x-8 pt-5 pr-5'>
-            <div
-              onClick={() => window.open("https://www.linkedin.com/in/akshay-jayaram/", "_blank")}
-              className='bg-violet-400 hover:bg-violet-300 w-12 h-12 md:w-16 md:h-16 rounded-full flex justify-center items-center cursor-pointer'
-            >
-              <img
-                src={ln}
-                alt='source code'
-                className='w-1/3 h-1/3 md:w-1/2 md:h-1/2 object-contain'
-              />
-            </div>
-            <div
-              onClick={() => window.open("https://github.com/Akshay-Jayaram", "_blank")}
-              className='bg-violet-400 hover:bg-violet-300 w-12 h-12 md:w-16 md:h-16 rounded-full flex justify-center items-center cursor-pointer'
-            >
-              <img
-                src={github}
-                alt='source code'
-                className='w-1/3 h-1/3 md:w-1/2 md:h-1/2 object-contain'
-              />
-            </div>
+          <div
+            onClick={() => window.open("https://www.linkedin.com/in/akshay-jayaram/", "_blank")}
+            className='bg-[#7976D5] hover:bg-violet-400 w-12 h-12 md:w-16 md:h-16 rounded-full flex justify-center items-center cursor-pointer'
+          >
+            <img
+              src={ln}
+              alt='source code'
+              className='w-1/3 h-1/3 md:w-1/2 md:h-1/2 object-contain'
+            />
           </div>
+          <div
+            onClick={() => window.open("https://github.com/Akshay-Jayaram", "_blank")}
+            className='bg-[#7976D5] hover:bg-violet-400 w-12 h-12 md:w-16 md:h-16 rounded-full flex justify-center items-center cursor-pointer'
+          >
+            <img
+              src={github}
+              alt='source code'
+              className='w-1/3 h-1/3 md:w-1/2 md:h-1/2 object-contain'
+            />
+          </div>
+        </div>
 
         <form
           ref={formRef}
@@ -117,18 +116,18 @@ const Contact = () => {
               name='name'
               value={form.name}
               onChange={handleChange}
-              placeholder="What's your good name?"
+              placeholder="Type your name"
               className='bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium'
             />
           </label>
           <label className='flex flex-col'>
-            <span className='text-white font-medium mb-4'>Your email</span>
+            <span className='text-white font-medium mb-4'>Your Email</span>
             <input
               type='email'
               name='email'
               value={form.email}
               onChange={handleChange}
-              placeholder="What's your web address?"
+              placeholder="Type your email"
               className='bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium'
             />
           </label>
@@ -146,7 +145,7 @@ const Contact = () => {
 
           <button
             type='submit'
-            className='bg-violet-400 hover:bg-violet-400 py-3 px-8 rounded-xl outline-none w-fit text-white font-bold shadow-md shadow-primary'
+            className='bg-[#7976D5] hover:bg-violet-400 py-3 px-8 rounded-xl outline-none w-fit text-white font-bold shadow-md shadow-primary'
           >
             {loading ? "Sending..." : "Send"}
           </button>

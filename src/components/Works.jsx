@@ -32,26 +32,30 @@ const ProjectCard = ({
           />
 
           <div className='absolute inset-0 flex justify-end m-3 card-img_hover space-x-3'>
-            <div
-              onClick={() => window.open(link, "_blank")}
-              className='black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer'
-            >
-              <img
-                src={eye}
-                alt='source code'
-                className='w-1/2 h-1/2 object-contain'
-              />
-            </div>
-            <div
-              onClick={() => window.open(source_code_link, "_blank")}
-              className='black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer'
-            >
-              <img
-                src={github}
-                alt='source code'
-                className='w-1/2 h-1/2 object-contain'
-              />
-            </div>
+            {link && (
+              <div
+                onClick={() => window.open(link, "_blank")}
+                className='black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer'
+              >
+                <img
+                  src={eye}
+                  alt='source code'
+                  className='w-1/2 h-1/2 object-contain'
+                />
+              </div>
+            )}
+            {source_code_link && (
+              <div
+                onClick={() => window.open(source_code_link, "_blank")}
+                className='black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer'
+              >
+                <img
+                  src={github}
+                  alt='source code'
+                  className='w-1/2 h-1/2 object-contain'
+                />
+              </div>
+            )}
           </div>
         </div>
 
@@ -83,26 +87,57 @@ const Works = () => {
         <h2 className={`${styles.sectionHeadText}`}>Projects.</h2>
       </motion.div>
 
+      {/*Web projects*/}
       <div className='w-full flex'>
         <motion.p
           variants={fadeIn("", "", 0.1, 1)}
-          className='mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]'
+          className='mt-16 text-secondary text-[30px] max-w-3xl leading-[30px]'
         >
-          Following projects showcases my skills and experience through
-          real-world examples of my work. Each project is briefly described with
-          links to code repositories and live demos in it. It reflects my
-          ability to solve complex problems, work with different technologies,
-          and manage projects effectively.
+          Web Projects
         </motion.p>
       </div>
 
-      <div className='mt-20 flex flex-wrap gap-7'>
+      <div className='mt-10 flex flex-wrap gap-7'>
         {projects.map((project, index) => (
           <ProjectCard key={`project-${index}`} index={index} {...project} />
         ))}
       </div>
+
+      {/*AWS projects*/}
+      <div className='w-full flex'>
+        <motion.p
+          variants={fadeIn("", "", 0.1, 1)}
+          className='mt-12 text-secondary text-[30px] max-w-3xl leading-[30px]'
+        >
+          AWS based projects
+        </motion.p>
+      </div>
+
+
+
+      {/*Other projects*/}
+      <div className='w-full flex'>
+        <motion.p
+          variants={fadeIn("", "", 0.1, 1)}
+          className='mt-12 text-secondary text-[30px] max-w-3xl leading-[30px]'
+        >
+          Other Projects
+        </motion.p>
+      </div>
+
+
+      {/*UI/UX Design*/}
+      <div className='w-full flex'>
+        <motion.p
+          variants={fadeIn("", "", 0.1, 1)}
+          className='mt-12 text-secondary text-[30px] max-w-3xl leading-[30px]'
+        >
+          UI/UX Design
+        </motion.p>
+      </div>
+
     </>
   );
 };
 
-export default SectionWrapper(Works, "");
+export default SectionWrapper(Works, "works");

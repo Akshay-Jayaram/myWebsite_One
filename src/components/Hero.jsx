@@ -3,8 +3,7 @@ import { motion } from "framer-motion";
 import { styles } from "../styles";
 import video from "../assets/hero7.mp4"
 import { SectionWrapper } from "../hoc";
-import ln from "../assets/ln.png";
-import { github } from "../assets";
+import { github, ln } from "../assets";
 
 const Hero = () => {
   return (

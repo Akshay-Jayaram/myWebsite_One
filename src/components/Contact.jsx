@@ -3,8 +3,7 @@ import { motion } from "framer-motion";
 import emailjs from "@emailjs/browser";
 
 import { styles } from "../styles";
-import { github } from "../assets";
-import ln from "../assets/ln.png";
+import { github, ln } from "../assets";
 import { SectionWrapper } from "../hoc";
 import { slideIn } from "../utils/motion";
 

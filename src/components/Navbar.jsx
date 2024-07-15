@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 import { styles } from '../styles';
 import { navLinks } from '../constants';
-import { logo, menu, close } from '../assets';
+import { menu, close } from '../assets';
 
 
 const Navbar = () => {
@@ -21,14 +21,14 @@ const Navbar = () => {
             window.scrollTo(0, 0);
           }}>
 
-        </Link> 
+        </Link>
         <ul className='list-none hidden sm:flex flex-row gap-10'>
           {navLinks.map((link) => (
             <li
               key={link.id}
               className={`${active === link.title
-                  ? 'text-white'
-                  : 'text-secondary'
+                ? 'text-white'
+                : 'text-secondary'
                 } hover:text-white text-[18px] font-medium cursor-pointer
               `}
               onClick={() => setActive(link.title)}>
@@ -50,8 +50,8 @@ const Navbar = () => {
                 <li
                   key={link.id}
                   className={`${active === link.title
-                      ? 'text-white'
-                      : 'text-secondary'
+                    ? 'text-white'
+                    : 'text-secondary'
                     } font-poppins font-medium cursor-pointer text-[16px]
               `}
                   onClick={() => {

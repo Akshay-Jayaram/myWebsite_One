@@ -14,14 +14,14 @@ import {
   mongodb,
   git,
   figma,
+  aws,
   docker,
-  meta,
-  starbucks,
-  tesla,
-  shopify,
-  carrent,
-  jobit,
-  tripguide,
+  dsce,
+  ucr,
+  accenture,
+  summaizer,
+  spitico,
+  portfolio,
   threejs,
   UCRmarket,
 } from "../assets";
@@ -114,13 +114,17 @@ const technologies = [
     name: "typescript",
     icon: typescript,
   },
+  {
+    name: "aws",
+    icon: aws,
+  },
 ];
 
 const experiences = [
   {
     title: "Leadership Inters",
     company_name: "ACM at UCR",
-    icon: starbucks,
+    icon: ucr,
     iconBg: "#383E56",
     date: "Oct 2023 - Present",
     points: [
@@ -131,7 +135,7 @@ const experiences = [
   {
     title: "Custom Software Engineering Analyst",
     company_name: "Accenture",
-    icon: tesla,
+    icon: accenture,
     iconBg: "#E6DEDD",
     date: "Dec 2021 - Aug 2023",
     points: [
@@ -143,7 +147,7 @@ const experiences = [
   {
     title: "Application Development Associate",
     company_name: "Accenture",
-    icon: tesla,
+    icon: accenture,
     iconBg: "#E6DEDD",
     date: "Nov 2020 - Dec 2021",
     points: [
@@ -158,7 +162,7 @@ const education = [
   {
     title: "Master of Science in Computer Engineering",
     company_name: "University of California, Riverside",
-    icon: starbucks,
+    icon: ucr,
     iconBg: "#E6DEDD",
     date: "Sep 2023 - Present",
     points: [
@@ -167,7 +171,7 @@ const education = [
   {
     title: "Bachelor of Engineering in Computer Science and Engineering",
     company_name: "Dayananda Sagar College of Engineering",
-    icon: meta,
+    icon: dsce,
     iconBg: "#E6DEDD",
     date: "Aug 2016 - May 2020",
     points: [
@@ -218,7 +222,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
+    image: summaizer,
     source_code_link: "https://github.com/Akshay-Jayaram/ai-article-summarizer",
     link: "https://akshay-jayaram.github.io/ai-article-summarizer/"
   },
@@ -240,7 +244,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
+    image: portfolio,
     source_code_link: "https://github.com/Akshay-Jayaram/myWebsite_One",
     link: "https://akshay-jayaram.github.io/myWebsite_One/"
   },

@@ -24,6 +24,10 @@ import {
   portfolio,
   threejs,
   UCRmarket,
+  az900,
+  sc900,
+  awsgenai,
+  awscpract,
 } from "../assets";
 
 export const navLinks = [
@@ -250,4 +254,23 @@ const projects = [
   },
 ];
 
-export { services, technologies, experiences, education, projects };
+const credlybadges = [
+  {
+    link: "73849694-12b1-4f52-91c2-2cf6fa46fd25",
+    image: awscpract,
+  },
+  {
+    link: "a15814b2-cd21-4945-8e12-b8fb8d690a04",
+    image: az900,
+  },
+  {
+    link: "4beb28fa-3c9e-4ba7-be0a-eb9a373938a8",
+    image: sc900,
+  },
+  {
+    link: "82e3d8ea-c4d1-4f9a-a975-c69022a08b6c",
+    image: awsgenai,
+  },
+];
+
+export { services, technologies, experiences, education, projects, credlybadges };

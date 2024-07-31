@@ -37,6 +37,12 @@ import spitico from "./projects/spitico.png";
 import portfolio from "./projects/portfolio.png";
 import UCRmarket from "./projects/UCRmarket.png";
 
+//badges
+import awscpract from "./badges/aws-cpract.png";
+import awsgenai from "./badges/aws-genai.png";
+import az900 from "./badges/az900.png";
+import sc900 from "./badges/sc900.png";
+
 export {
   backend,
   creator,
@@ -68,4 +74,8 @@ export {
   spitico,
   portfolio,
   UCRmarket,
+  az900,
+  sc900,
+  awsgenai,
+  awscpract,
 };

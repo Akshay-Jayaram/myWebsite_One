@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 
 import { styles } from "../styles";
-import video from "../assets/hero7.mp4"
+import video from "../assets/hero8.mp4"
 import { SectionWrapper } from "../hoc";
 import { github, ln } from "../assets";
 

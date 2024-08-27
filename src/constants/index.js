@@ -189,7 +189,7 @@ const projects = [
   {
     name: "UCR Marketplace",
     description:
-      "Next.js application developed to facilitate a marketplace for UCR students, enabling them to buy and sell items within the campus community. This project was created as part of the UCR startup incubation contest, providing a platform for students to post, approve, and trade items like furniture, electronics, and transportation tools.",
+      "Next.js marketplace application for UCR students to buy and sell campus-related items. Created for the UCR startup incubation contest, it enables posting, approving, and trading of furniture, electronics, and other student essentials. Fully deployed and managed on AWS, leveraging cloud infrastructure for scalability and reliability.",
     tags: [
       {
         name: "React",
@@ -200,13 +200,13 @@ const projects = [
         color: "green-text-gradient",
       },
       {
-        name: "Tailwind CSS",
+        name: "AWS",
         color: "pink-text-gradient",
       },
     ],
     image: UCRmarket,
-    source_code_link: "https://github.com/Akshay-Jayaram/ucrmarketplace",
-    link: ""
+    source_code_link: "https://github.com/Akshay-Jayaram/ucr-marketplace",
+    link: "https://ucrmarketplace.com/"
   },
   {
     name: "AI Article Summarizer",

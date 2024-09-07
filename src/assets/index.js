@@ -36,6 +36,9 @@ import summaizer from "./projects/summaizer.png";
 import spitico from "./projects/spitico.png";
 import portfolio from "./projects/portfolio.png";
 import UCRmarket from "./projects/UCRmarket.png";
+import d3 from "./projects/d3.png";
+import smartLoc from "./projects/smartLoc.png";
+
 
 //badges
 import awscpract from "./badges/aws-cpract.png";
@@ -74,6 +77,8 @@ export {
   spitico,
   portfolio,
   UCRmarket,
+  d3,
+  smartLoc,
   az900,
   sc900,
   awsgenai,

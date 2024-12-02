@@ -38,6 +38,9 @@ import portfolio from "./projects/portfolio.png";
 import UCRmarket from "./projects/UCRmarket.png";
 import d3 from "./projects/d3.png";
 import smartLoc from "./projects/smartLoc.png";
+import aviatr from "./projects/aviatr.png";
+import aiosphere from "./projects/aiosphere.png";
+import ieee from "./projects/ieee.png";
 
 
 //badges
@@ -74,9 +77,12 @@ export {
   ucr,
   accenture,
   summaizer,
+  aiosphere,
+  aviatr,
   spitico,
   portfolio,
   UCRmarket,
+  ieee,
   d3,
   smartLoc,
   az900,

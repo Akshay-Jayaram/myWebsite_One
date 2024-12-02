@@ -20,8 +20,9 @@ import {
   ucr,
   accenture,
   summaizer,
-  spitico,
+  aviatr,
   portfolio,
+  ieee,
   threejs,
   UCRmarket,
   d3,
@@ -30,6 +31,7 @@ import {
   sc900,
   awsgenai,
   awscpract,
+  aiosphere,
 } from "../assets";
 
 export const navLinks = [
@@ -57,7 +59,7 @@ const services = [
     icon: mobile,
   },
   {
-    title: "Cloud Practitioner",
+    title: "Cloud Developer",
     icon: backend,
   },
   {
@@ -171,7 +173,7 @@ const education = [
     company_name: "University of California, Riverside",
     icon: ucr,
     iconBg: "#E6DEDD",
-    date: "Sep 2023 - Present",
+    date: "Sep 2023 - Dec 2024",
     points: [
     ],
   },
@@ -212,16 +214,16 @@ const webProjects = [
     link: "https://ucrmarketplace.com/"
   },
   {
-    name: "AI Article Summarizer",
+    name: "Aviatr",
     description:
-      "Web-based platform that Transforms lengthy articles into concise insights effortlessly, saving time and delivering the essence of content in seconds.",
+      "Collaborated with ACM at UCR to develop a website for the university's UAS research club, highlighting their expertise in drone manufacturing and autonomous devices. Built with Next.js, TypeScript, and TailwindCSS, it showcases projects and promotes collaboration in advanced aerospace technology.",
     tags: [
       {
-        name: "React",
+        name: "NextJS",
         color: "blue-text-gradient",
       },
       {
-        name: "Redux",
+        name: "TypeScript",
         color: "green-text-gradient",
       },
       {
@@ -229,10 +231,11 @@ const webProjects = [
         color: "pink-text-gradient",
       },
     ],
-    image: summaizer,
-    source_code_link: "https://github.com/Akshay-Jayaram/ai-article-summarizer",
-    link: "https://akshay-jayaram.github.io/ai-article-summarizer/"
+    image: aviatr,
+    source_code_link: "https://github.com/acm-ucr/aviatr-website",
+    link: "https://aviatr.ucrhighlanders.org/"
   },
+
   {
     name: "Portfolio Site",
     description:
@@ -257,7 +260,52 @@ const webProjects = [
   },
 ];
 
+const awsProjects = [
+  {
+    name: "AIosphere Image Generator",
+    description:
+      "Platform for generating AI-driven images from text prompts, leveraging AWS Bedrock, Lambda, and API Gateway. Designed to simplify creative workflows with a scalable, serverless architecture.",
+    tags: [
+      {
+        name: "AWS Bedrock",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "AWS Lambda",
+        color: "green-text-gradient",
+      },
+      {
+        name: "AWS API Gateway",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: aiosphere,
+    source_code_link: "https://github.com/Akshay-Jayaram/ai-article-summarizer",
+    link: "http://akj-image-generator.s3-website-us-east-1.amazonaws.com/"
+  },
+
+];
+
 const otherProjects = [
+
+  {
+    name: "Smart Location Database",
+    description:
+      "The Smart Location Database project utilizes Apache Spark and MLlib to analyze urban form and transportation patterns across 220,000 U.S. Census block groups. By creating predictive models and interactive choropleth maps, it provides urban planners with powerful tools to optimize city infrastructure and improve transportation efficiency.",
+    tags: [
+      {
+        name: "Jupyter Notebook",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Python",
+        color: "green-text-gradient",
+      },
+    ],
+    image: smartLoc,
+    source_code_link: "https://github.com/Akshay-Jayaram/Smart-Location-Database",
+    link: ""
+  },
   {
     name: "Data Visualization using D3.js",
     description:
@@ -277,26 +325,29 @@ const otherProjects = [
     link: "https://akshay-jayaram.github.io/dataVisualization_d3.js/"
   },
   {
-    name: "Smart Location Database",
+    name: "Blockchain-based Management of Video Surveillance Systems: A Survey",
     description:
-      "The Smart Location Database project utilizes Apache Spark and MLlib to analyze urban form and transportation patterns across 220,000 U.S. Census block groups. By creating predictive models and interactive choropleth maps, it provides urban planners with powerful tools to optimize city infrastructure and improve transportation efficiency.",
+      "Published in IEEE, this research leverages Hyperledger Fabric to enhance security with 10 consensus algorithms (PoW, PoS, PBFT) and explores CDN/IPFS for up to 40% faster data retrieval.",
     tags: [
       {
-        name: "Jupyter Notebook",
+        name: "Blockchain Security",
         color: "blue-text-gradient",
       },
       {
-        name: "Python",
+        name: "Video Data Optimization",
         color: "green-text-gradient",
       },
     ],
-    image: smartLoc,
-    source_code_link: "https://github.com/Akshay-Jayaram/Smart-Location-Database",
-    link: ""
+    image: ieee,
+    source_code_link: "",
+    link: "https://ieeexplore.ieee.org/document/9074197"
   },
 ];
 
 const credlybadges = [
+  {
+    link: "cccaeb38-56ba-43fe-aa1b-c95a8dd4baac",
+  },
   {
     link: "73849694-12b1-4f52-91c2-2cf6fa46fd25",
     image: awscpract,
@@ -315,4 +366,4 @@ const credlybadges = [
   },
 ];
 
-export { services, technologies, experiences, education, webProjects, otherProjects, credlybadges };
+export { services, technologies, experiences, education, webProjects, awsProjects, otherProjects, credlybadges };

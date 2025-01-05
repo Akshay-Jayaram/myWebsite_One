@@ -10,7 +10,7 @@ import {
   reactjs,
   redux,
   tailwind,
-  nodejs,
+  terraform,
   mongodb,
   git,
   figma,
@@ -19,7 +19,6 @@ import {
   dsce,
   ucr,
   accenture,
-  summaizer,
   aviatr,
   portfolio,
   ieee,
@@ -95,8 +94,8 @@ const technologies = [
     icon: tailwind,
   },
   {
-    name: "Node JS",
-    icon: nodejs,
+    name: "Terraform",
+    icon: terraform,
   },
   {
     name: "MongoDB",
@@ -147,8 +146,8 @@ const experiences = [
     iconBg: "#E6DEDD",
     date: "Dec 2021 - Aug 2023",
     points: [
-      "Led DevOps support for the offshore CorpIT team, managing GitHub, JFrog, and SonarCloud platform applications, contributing to a 96% CSAT score.",
-      "Automated CI/CD processes using Accenture DevOps Platform (ADOP), streamlining software workflows and reducing deployment times by 40%.",
+      "Led DevOps support for the offshore CorpIT team, managing GitHub, JFrog, and SonarCloud applications, and contributing to a 96% CSAT score.",
+      "Assisted in updating and optimizing CI/CD pipelines using Accenture DevOps Platform (ADOP), improving deployment reliability and reducing rollout times by 40%.",
       "Worked directly with product owners to resolve issues and technical pain points during deployment and production.",
       "Mentored 2 junior developers in Agile methodologies and test-driven development, improving team velocity by 15%."
     ],
@@ -160,9 +159,9 @@ const experiences = [
     iconBg: "#E6DEDD",
     date: "Nov 2020 - Dec 2021",
     points: [
-      "Managed over 150 L2 incidents for Power BI development support, conducted PBI gateway upgrades for 12 months, ensuring 99.9% uptime and enhancing system performance.",
-      "Resolved over 500 ServiceNow incidents and requests for Miro and Jira support teams, achieving a 95% first-contact resolution rate and reducing average resolution time by 25%.",
-      "Designed and implemented UiPath-driven bots for PBI Pro licensing and Miro team management, automating usage tracking and cost prediction, and reducing manual efforts by 60%.",
+      "Streamlined Power BI Pro licensing and Miro team management by developing UiPath automation scripts, reducing manual workloads by 60%.",
+      "Managed over 150 L2 incidents for Power BI and Databricks development support, performing ongoing PBI gateway upgrades to maintain 99.9% uptime and improve system performance.",
+      "Resolved over 500 ServiceNow incidents for Miro and Jira support teams, achieving a 95% first-contact resolution rate and reducing average resolution time by 25%.",
     ],
   },
 ];

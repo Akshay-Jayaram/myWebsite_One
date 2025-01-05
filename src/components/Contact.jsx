@@ -77,7 +77,7 @@ const Contact = () => {
 
         <div className='w-full flex'>
           <br className='sm:block hidden' />
-          Actively seeking full-time positions starting December 2024.
+          Actively seeking full-time positions.
         </div>
 
         <div className='absolute inset-0 flex justify-end m-3 card-img_hover space-x-8 pt-5 pr-5'>

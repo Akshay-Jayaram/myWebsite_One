@@ -16,13 +16,13 @@ import {
   figma,
   aws,
   docker,
+  python,
   dsce,
   ucr,
   accenture,
   aviatr,
   portfolio,
   ieee,
-  threejs,
   UCRmarket,
   d3,
   smartLoc,
@@ -80,7 +80,10 @@ const technologies = [
     name: "JavaScript",
     icon: javascript,
   },
-
+  {
+    name: "Python",
+    icon: python,
+  },
   {
     name: "React JS",
     icon: reactjs,
@@ -100,10 +103,6 @@ const technologies = [
   {
     name: "MongoDB",
     icon: mongodb,
-  },
-  {
-    name: "Three JS",
-    icon: threejs,
   },
   {
     name: "git",

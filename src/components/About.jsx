@@ -47,8 +47,7 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
-        I'm a passionate software developer currently pursuing my Master's degree in Computer Engineering at the University of California, Riverside. My expertise lies in web development, with a strong focus on UI/UX design, creating intuitive and responsive user experiences. I am also proficient in Python and JavaScript and have a solid foundation in coding, data structures, and algorithms. Additionally, I am deeply interested in cloud technologies and Generative AI applications, constantly exploring how they can transform and enhance modern computing solutions.
-        Beyond the screen, I'm a nature enthusiast, a coffee lover, and a firm believer in work-life balance.
+        I’m a passionate software developer with a Master’s degree in Computer Engineering from the University of California, Riverside. My expertise spans cloud computing, DevOps, and full-stack development, specializing in building scalable solutions using AWS, Terraform, and CloudFormation. I also excel in creating intuitive, responsive user interfaces with React.js, TypeScript, and Node.js. Passionate about generative AI, I enjoy exploring innovative technologies and integrating them into modern applications. Beyond the screen, I'm a nature enthusiast, a coffee lover, and a firm believer in work-life balance.
       </motion.p>
 
       <div className='mt-20 flex flex-wrap gap-10'>

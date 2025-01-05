@@ -1,7 +1,17 @@
 import { BrowserRouter } from "react-router-dom"
 import { About, Contact, Experience, Education, Hero, Navbar, Skills, Works, StarsCanvas, Badges } from "./components";
 
+function isWebGLAvailable() {
+  try {
+    const canvas = document.createElement('canvas');
+    return !!(window.WebGLRenderingContext && (canvas.getContext('webgl') || canvas.getContext('experimental-webgl')));
+  } catch (e) {
+    return false;
+  }
+}
+
 function App() {
+  const webGLAvailable = isWebGLAvailable();
 
   return (
     <BrowserRouter>
@@ -10,7 +20,7 @@ function App() {
           <Navbar />
           <div className="relative z-0">
             <Hero />
-            <StarsCanvas />
+            {webGLAvailable && <StarsCanvas />}
           </div>
         </div>
         <About />
@@ -21,7 +31,7 @@ function App() {
         <Education />
         <div className="relative z-0">
           <Contact />
-          <StarsCanvas />
+          {webGLAvailable && <StarsCanvas />}
         </div>
       </div>
     </BrowserRouter>

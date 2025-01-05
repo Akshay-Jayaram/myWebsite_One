@@ -24,6 +24,7 @@ import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import aws from "./tech/aws.png";
+import python from "./tech/python.png";
 import threejs from "./tech/threejs.svg";
 
 //experience and education section images
@@ -73,6 +74,7 @@ export {
   typescript,
   aws,
   threejs,
+  python,
   dsce,
   ucr,
   accenture,

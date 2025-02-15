@@ -351,6 +351,9 @@ const credlybadges = [
     image: awscpract,
   },
   {
+    link: "f815036f-4eea-4422-b31c-0f4d84f58755",
+  },
+  {
     link: "a15814b2-cd21-4945-8e12-b8fb8d690a04",
     image: az900,
   },

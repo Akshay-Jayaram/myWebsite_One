@@ -134,8 +134,8 @@ const Works = () => {
         ))}
       </div>
 
-
-      {/*UI/UX Design*/}
+      {/*
+      {/*UI/UX Design
       <div className='w-full flex'>
         <motion.p
           variants={fadeIn("", "", 0.1, 1)}
@@ -144,7 +144,7 @@ const Works = () => {
           UI/UX Design
         </motion.p>
       </div>
-
+        */}
     </>
   );
 };

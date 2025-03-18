@@ -365,6 +365,9 @@ const credlybadges = [
     link: "82e3d8ea-c4d1-4f9a-a975-c69022a08b6c",
     image: awsgenai,
   },
+  {
+    link: "8c89bd90-f82f-40ba-aec7-2b31cd2d6162"
+  }
 ];
 
 export { services, technologies, experiences, education, webProjects, awsProjects, otherProjects, credlybadges };

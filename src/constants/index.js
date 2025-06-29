@@ -20,6 +20,7 @@ import {
   dsce,
   ucr,
   accenture,
+  one,
   aviatr,
   portfolio,
   ieee,
@@ -139,28 +140,30 @@ const experiences = [
     ],
   },*/
   {
+    title: "Software Engineering",
+    company_name: "One Community Inc.",
+    icon: one,
+    iconBg: "#E6DEDD",
+    date: "Feb 2025 - Present",
+    points: [
+      "Contribute to the open-source Highest Good Network project with 10+ merged PRs, delivering new features and fixing UI/UX bugs, logic errors, and layout issues, enhancing usability for 1,100+ global users.",
+      "Optimized database queries for task assignments, time logs, and badges, and added features like Time Logger, Time Zone Difference and Badge Assignment, reinforcing data integrity across time-tracking workflows.",
+      "Lead a 10-member team, Reactonauts, by conducting daily reviews, monitoring task progress, hosting weekly standups, and reviewing PRs, improving task clarity and team efficiency in a collaborative open-source setup."
+    ],
+  },
+  {
     title: "Custom Software Engineering Analyst",
     company_name: "Accenture",
     icon: accenture,
     iconBg: "#E6DEDD",
-    date: "Dec 2021 - Aug 2023",
+    date: "Nov 2020 - Aug 2023",
     points: [
       "Led DevOps support for the offshore CorpIT team, managing GitHub, JFrog, and SonarCloud applications, and contributing to a 96% CSAT score.",
       "Assisted in updating and optimizing CI/CD pipelines using Accenture DevOps Platform (ADOP), improving deployment reliability and reducing rollout times by 40%.",
-      "Worked directly with product owners to resolve issues and technical pain points during deployment and production.",
-      "Mentored 2 junior developers in Agile methodologies and test-driven development, improving team velocity by 15%."
-    ],
-  },
-  {
-    title: "Application Development Associate",
-    company_name: "Accenture",
-    icon: accenture,
-    iconBg: "#E6DEDD",
-    date: "Nov 2020 - Dec 2021",
-    points: [
       "Streamlined Power BI Pro licensing and Miro team management by developing UiPath automation scripts, reducing manual workloads by 60%.",
       "Managed over 150 L2 incidents for Power BI and Databricks development support, performing ongoing PBI gateway upgrades to maintain 99.9% uptime and improve system performance.",
-      "Resolved over 500 ServiceNow incidents for Miro and Jira support teams, achieving a 95% first-contact resolution rate and reducing average resolution time by 25%.",
+      "Resolved over 500 ServiceNow tickets for Miro and Jira support teams, achieving a 95% first-contact resolution rate and reducing average resolution time by 25%.",
+      "Mentored 2 junior developers in Agile methodologies and test-driven development, improving team velocity by 15%."
     ],
   },
 ];
@@ -347,6 +350,9 @@ const credlybadges = [
     link: "cccaeb38-56ba-43fe-aa1b-c95a8dd4baac",
   },
   {
+    link: "79417369-145c-4eb6-8e47-24f590585544"
+  },
+  {
     link: "73849694-12b1-4f52-91c2-2cf6fa46fd25",
     image: awscpract,
   },
@@ -366,7 +372,7 @@ const credlybadges = [
     image: awsgenai,
   },
   {
-    link: "8c89bd90-f82f-40ba-aec7-2b31cd2d6162"
+    link: "4aebd2d5-d9f9-49c0-b1a4-ae1b72b77991"
   }
 ];
 

@@ -31,6 +31,8 @@ import threejs from "./tech/threejs.svg";
 import dsce from "./company/dsce.png";
 import ucr from "./company/ucr.png";
 import accenture from "./company/accenture.png";
+import one from "./company/one.jpeg";
+
 
 //works section images
 import summaizer from "./projects/summaizer.png";
@@ -78,6 +80,7 @@ export {
   dsce,
   ucr,
   accenture,
+  one,
   summaizer,
   aiosphere,
   aviatr,

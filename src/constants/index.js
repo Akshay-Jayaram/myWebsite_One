@@ -23,6 +23,8 @@ import {
   one,
   aviatr,
   portfolio,
+  dockerCompose,
+  tf1,
   ieee,
   UCRmarket,
   d3,
@@ -51,19 +53,19 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Software Engineer",
+    title: "Software Development",
     icon: web,
   },
   {
-    title: "Web Developer",
+    title: "Cloud Computing",
     icon: mobile,
   },
   {
-    title: "Cloud Developer",
+    title: "DevOps",
     icon: backend,
   },
   {
-    title: "UI/UX Developer",
+    title: "Cloud Security",
     icon: creator,
   },
 ];
@@ -262,6 +264,48 @@ const webProjects = [
 ];
 
 const awsProjects = [
+  {
+    name: "Terraform IAM User Management",
+    description:
+      "Automated IAM user and role management using Terraform and a YAML config, enabling streamlined access control setup on AWS. Users can assume roles securely via AWS STS with generated login credentials and role-based permissions.",
+    tags: [
+      {
+        name: "Terraform",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "AWS IAM",
+        color: "green-text-gradient",
+      },
+      {
+        name: "IaC",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: tf1,
+    source_code_link: "https://github.com/Akshay-Jayaram/terraform-iam-user-management",
+  },
+  {
+    name: "Dockerized Key-Value Backend Application",
+    description:
+      "This project demonstrates deploying a key-value Express backend and a MongoDB database in isolated Docker containers connected via a custom Docker network. All setup and teardown processes are managed by Docker Compose.",
+    tags: [
+      {
+        name: "Docker",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "ExpressJS",
+        color: "green-text-gradient",
+      },
+      {
+        name: "MongoDB",
+        color: "pink-text-gradient",
+      },
+    ],
+    image:   dockerCompose,
+    source_code_link: "https://github.com/Akshay-Jayaram/dockerCompose-express-mongodb-deployment",
+  },
   {
     name: "AIosphere Image Generator",
     description:

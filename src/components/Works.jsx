@@ -86,6 +86,21 @@ const Works = () => {
         <h2 className={`${styles.sectionHeadText}`}>Projects.</h2>
       </motion.div>
 
+      {/*AWS projects*/}
+      <div className='w-full flex'>
+        <motion.p
+          variants={fadeIn("", "", 0.1, 1)}
+          className='mt-12 text-secondary text-[30px] max-w-3xl leading-[30px]'
+        >
+          Cloud & DevOps Projects
+        </motion.p>
+      </div>
+      <div className='mt-10 flex flex-wrap gap-7'>
+        {awsProjects.map((project, index) => (
+          <ProjectCard key={`project-${index}`} index={index} {...project} />
+        ))}
+      </div>
+
       {/*Web projects*/}
       <div className='w-full flex'>
         <motion.p
@@ -101,22 +116,6 @@ const Works = () => {
           <ProjectCard key={`project-${index}`} index={index} {...project} />
         ))}
       </div>
-
-      {/*AWS projects*/}
-      <div className='w-full flex'>
-        <motion.p
-          variants={fadeIn("", "", 0.1, 1)}
-          className='mt-12 text-secondary text-[30px] max-w-3xl leading-[30px]'
-        >
-          AWS based projects
-        </motion.p>
-      </div>
-      <div className='mt-10 flex flex-wrap gap-7'>
-        {awsProjects.map((project, index) => (
-          <ProjectCard key={`project-${index}`} index={index} {...project} />
-        ))}
-      </div>
-
 
 
       {/*Other projects*/}

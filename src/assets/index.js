@@ -44,6 +44,8 @@ import smartLoc from "./projects/smartLoc.png";
 import aviatr from "./projects/aviatr.png";
 import aiosphere from "./projects/aiosphere.png";
 import ieee from "./projects/ieee.png";
+import dockerCompose from "./projects/docker-compose.png";
+import tf1 from "./projects/tf-iam.png";
 
 
 //badges
@@ -88,6 +90,8 @@ export {
   portfolio,
   UCRmarket,
   ieee,
+  dockerCompose,
+  tf1,
   d3,
   smartLoc,
   az900,

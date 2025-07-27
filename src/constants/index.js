@@ -16,6 +16,7 @@ import {
   figma,
   aws,
   docker,
+  k8s1,
   python,
   dsce,
   ucr,
@@ -264,6 +265,27 @@ const webProjects = [
 ];
 
 const awsProjects = [
+  {
+    name: "Key-Value Store with MongoDB on Kubernetes",
+    description:
+      "A Key-Value store backend using Express.js and MongoDB, containerized and orchestrated via Kubernetes (Minikube)",
+    tags: [
+      {
+        name: "Kubernetes",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Docker",
+        color: "green-text-gradient",
+      },
+      {
+        name: "MongoDB",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: k8s1,
+    source_code_link: "https://github.com/Akshay-Jayaram/k8s-express-mongodb-deployment",
+  },
   {
     name: "Terraform IAM User Management",
     description:

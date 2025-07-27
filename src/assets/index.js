@@ -46,6 +46,7 @@ import aiosphere from "./projects/aiosphere.png";
 import ieee from "./projects/ieee.png";
 import dockerCompose from "./projects/docker-compose.png";
 import tf1 from "./projects/tf-iam.png";
+import k8s1 from "./projects/k8s.png";
 
 
 //badges
@@ -92,6 +93,7 @@ export {
   ieee,
   dockerCompose,
   tf1,
+  k8s1,
   d3,
   smartLoc,
   az900,

@@ -12,6 +12,8 @@ import {
   tailwind,
   terraform,
   mongodb,
+  k8s,
+  ansible,
   git,
   figma,
   aws,
@@ -73,6 +75,10 @@ const services = [
 
 const technologies = [
   {
+    name: "Python",
+    icon: python,
+  },
+  {
     name: "HTML 5",
     icon: html,
   },
@@ -85,10 +91,6 @@ const technologies = [
     icon: javascript,
   },
   {
-    name: "Python",
-    icon: python,
-  },
-  {
     name: "React JS",
     icon: reactjs,
   },
@@ -97,8 +99,8 @@ const technologies = [
     icon: redux,
   },
   {
-    name: "Tailwind CSS",
-    icon: tailwind,
+    name: "ansible",
+    icon: ansible,
   },
   {
     name: "Terraform",
@@ -113,8 +115,8 @@ const technologies = [
     icon: git,
   },
   {
-    name: "figma",
-    icon: figma,
+    name: "k8s",
+    icon: k8s,
   },
   {
     name: "docker",
@@ -151,7 +153,8 @@ const experiences = [
     points: [
       "Contribute to the open-source Highest Good Network project with 10+ merged PRs, delivering new features and fixing UI/UX bugs, logic errors, and layout issues, enhancing usability for 1,100+ global users.",
       "Optimized database queries for task assignments, time logs, and badges, and added features like Time Logger, Time Zone Difference and Badge Assignment, reinforcing data integrity across time-tracking workflows.",
-      "Lead a 10-member team, Reactonauts, by conducting daily reviews, monitoring task progress, hosting weekly standups, and reviewing PRs, improving task clarity and team efficiency in a collaborative open-source setup."
+      "Guide 10‑member development team through code reviews and sprint planning while successfully coordinating Node.js 20 migration with zero production downtime",
+      "Resolved 20+ critical Sentry errors and implemented proactive container health monitoring, achieving 99.5% uptime across production environments."
     ],
   },
   {
@@ -161,12 +164,13 @@ const experiences = [
     iconBg: "#E6DEDD",
     date: "Nov 2020 - Aug 2023",
     points: [
-      "Led DevOps support for the offshore CorpIT team, managing GitHub, JFrog, and SonarCloud applications, and contributing to a 96% CSAT score.",
-      "Assisted in updating and optimizing CI/CD pipelines using Accenture DevOps Platform (ADOP), improving deployment reliability and reducing rollout times by 40%.",
-      "Streamlined Power BI Pro licensing and Miro team management by developing UiPath automation scripts, reducing manual workloads by 60%.",
-      "Managed over 150 L2 incidents for Power BI and Databricks development support, performing ongoing PBI gateway upgrades to maintain 99.9% uptime and improve system performance.",
-      "Resolved over 500 ServiceNow tickets for Miro and Jira support teams, achieving a 95% first-contact resolution rate and reducing average resolution time by 25%.",
-      "Mentored 2 junior developers in Agile methodologies and test-driven development, improving team velocity by 15%."
+      "Led R&D and PoC efforts to automate Kubernetes cluster deployments (AKS, RKE2), scaling, and maintenance on Rancher, reducing provisioning time by 75% and enhancing deployment efficiency for 5+ CorpIT teams.",
+      "Monitored and supported 10+ production AKS clusters, managing config‑maps and implementing Splunk dashboards that reduced MTTR by 60% through proactive alerting and performance reporting.",
+      "Optimized and maintained 15+ CI/CD pipelines across 10+ dedicated build machines, improving build efficiency through continuous enhancements and automation.",
+      "Designed and managed enterprise secrets architecture using Azure AD (GitHub secrets) and Key Vault (AKS), and collaborated on vulnerability management to resolve 100+ security incidents, maintaining continuous compliance.",
+      "Led DevOps support team overseeing JFrog, SonarCloud, Miro, and PowerBI, resolving 500+ ServiceNow requests and 50+ L2 incidents, achieving a 96% CSAT score.",
+      "Served as primary technical contact for developer issues, creating comprehensive documentation for DevOps workflows, deployment procedures, and system architecture to ensure standardized practices across teams.",
+      "Mentored 2 junior developers in Agile methodologies and test‑driven development, improving team velocity by 15%."
     ],
   },
 ];
